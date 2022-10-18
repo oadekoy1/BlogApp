@@ -8,7 +8,8 @@ class Navbar extends React.Component {
                 <a href="/blog">Blogs</a>
                 <a href="/blog/new">Create New Blog</a>
                 <a href="/users/signup">Sign in/ Sign up</a>
-                <a href='/users/signout'>Sign Out</a>
+                {/* {loggedInUser && <h6>{loggedInUser}</h6>}
+                {loggedInUser && <a href='/users/signout'>Signout</a>} */}
             </nav>
         )
     }

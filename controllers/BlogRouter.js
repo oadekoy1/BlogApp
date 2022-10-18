@@ -69,17 +69,6 @@ router.post("/", async (req, res) => {
     }
   });
 
-    // blogModel.create(req.body).then(data =>{
-    //     console.log(data)
-    //     res.send(data)
-    // })
-    // .catch(error => {
-    //     console.log(error);
-    //     res.status(403).send('Can not create')
-    // })
-
-
-
 // PUT: Update by ID
 router.put('/:id', async (req, res) => {
     try {

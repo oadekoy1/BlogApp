@@ -3,7 +3,8 @@ const Navbar = require('../components/Navbar')
 
 class Index extends React.Component {
     render() {
-        const {blog} = this.props
+        const {blog, loggedInUser} = this.props
+        console.log(loggedInUser);
         return (
             <div>
                 <Navbar/>
