@@ -8,7 +8,7 @@ class HomePage extends React.Component {
 
                 <head>
 
-                <link rel="stylesheet" href="/css/app.css" />
+                <link rel="stylesheet" href="/CSS/app.css" />
 
                 </head>
 

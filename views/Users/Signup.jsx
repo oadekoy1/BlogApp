@@ -9,7 +9,7 @@ class Signup extends React.Component {
                <h1>Craete a New Account</h1>   
                
                <head>
-                <link rel="stylesheet" href="/css/app.css" />
+                <link rel="stylesheet" href="/CSS/app.css" />
                 </head>
 
                <form action='/users/signup' method='post'>

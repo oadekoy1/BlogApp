@@ -9,7 +9,7 @@ class Signin extends React.Component {
                 <h1>Sign in Page</h1>
                 
                 <head>
-                <link rel="stylesheet" href="/css/app.css" />
+                <link rel="stylesheet" href="/CSS/app.css" />
                 </head>
 
                 <form action='/users/signin' method='post'>

@@ -11,7 +11,7 @@ class Index extends React.Component {
                 <Navbar/>
 
                 <head>
-                <link rel="stylesheet" href="/css/app.css" />
+                <link rel="stylesheet" href="/CSS/app.css" />
                 </head>
                 
                 <form action='/blog' method='POST'>
