@@ -7,7 +7,7 @@ class Index extends React.Component {
         console.log(loggedInUser);
         return (
             <div>
-                <Navbar/>
+                <Navbar loggedInUser={loggedInUser}/>
 
                 <head>
                 <link rel="stylesheet" href="/CSS/app.css" />
